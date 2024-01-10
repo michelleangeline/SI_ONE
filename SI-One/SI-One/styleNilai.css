@@ -1,0 +1,162 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #111827;
+  width: 260px;
+  padding: 24px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.main {
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.sidebar .description-header {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  padding-left: 40px;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar .header .list-item {
+  display: flex;
+  width: 212px;
+  padding: 12px 10px;
+  align-items: center;
+  border-radius: 8px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar .header .illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+
+.sidebar .main .list-item .description {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  height: 1000px;
+}
+
+.sidebar .main .list-item .icon {
+  margin-right: 12px;
+}
+
+.sidebar .main .list-item {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 12px 10px;
+  border-radius: 8px;
+  width: 212px;
+  box-sizing: border-box;
+}
+
+.sidebar .main .list-item:hover {
+  background: #ff9900;
+  transition: all ease-in 0.2s;
+}
+
+.header-content {
+  width: 1200px;
+  height: 80px;
+  background-color: #111827;
+  box-sizing: border-box;
+}
+.sidebar {
+  border-right: silver solid;
+}
+
+.dshbrd {
+  padding-top: 25px;
+  padding-left: 25px;
+  color: #fff;
+}
+
+div.isi {
+  width: 600px;
+  height: 1000px;
+  background: white;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 1182px;
+  height: 500px;
+  background-color: #f0f0f0;
+  color: black;
+  border-radius: 10px;
+}
+
+.labelNilai {
+  font-size: 20px;
+  margin: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.tahunAjaran {
+  padding-right: 50px;
+}
+
+.card-container {
+  width: 1157px;
+  height: 500px;
+  padding-top: 15px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+.NilaiMahasiswa {
+  width: 1100px;
+  height: 350px;
+}
+
+table {
+  width: 1100px;
+  height: 300px;
+  text-align: center;
+}
+
+td {
+  border-bottom: silver solid;
+}
+
+.IPS {
+  padding: 25px 0px 0px 25px;
+}
+
+td.atas {
+  background-color: #111827;
+  color: #f0f0f0;
+}

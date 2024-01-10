@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SI One</title>
+    <!-- FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styleJadwal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- SIDEBAR -->
+    <div class="container">
+      <div class="sidebar">
+        <div class="header">
+          <div class="list-item-atas"></div>
+          <div class="illustration"><img src="src/logo.png"</div>
+        </div>
+
+        <div class="main">
+          <div class="list-item">
+            <a href="home_admin.html">
+              <img src="src/dashboard.svg" class="icon" />
+              <span class="description">Dashboard</span>
+            </a>
+          </div>
+
+          <div class="list-item">
+            <a href="nilai_admin.html">
+              <img src="src/input nilai.svg" class="icon" />
+              <span class="description">Nilai</span>
+            </a>
+          </div>
+
+          <div class="list-item">
+            <a href="jadwal_admin.html">
+              <img src="src/jadwal.png" class="icon" />
+              <span class="description">Jadwal</span>
+            </a>
+          </div>
+
+          <div class="list-item">
+            <a href="index.html">
+              <i class="fa-solid fa-circle-xmark"></i>
+              <span class="description">Logout</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="header-content">
+        <div class="dasboard-content">
+          <h1 class="dshbrd">Jadwal</h1>
+        </div>
+      </div>
+        <div class="card-container">
+          <input type="text" class="form-control" placeholder="Reguler Ganjil 2023/2024" aria-label="Semester" >
+          <br>
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">HARI</th>
+                <th scope="col">MATA KULIAH</th>
+                <th scope="col">KODE MK</th>
+                <th scope="col">SKS</th>
+                <th scope="col">KELAS</th>
+                <th scope="col">WAKTU</th>
+                <th scope="col">RUANG</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">SENIN</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <th scope="row">SELASA</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <th scope="row">RABU</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <th scope="row">KAMIS</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <th scope="row">JUMAT</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="btn btn-secondary" type="button" style="width: 100%;">
+            ADD
+          </button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>

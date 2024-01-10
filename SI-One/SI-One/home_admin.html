@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SI One</title>
+    <!-- FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="src/icon1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styleDashboard.css" />
+  </head>
+  <body>
+    <!-- SIDEBAR -->
+    <div class="container">
+      <div class="sidebar" style="position: relative;">
+        <div class="header">
+          <div class="list-item-atas"></div>
+          <div class="illustration"><img src="src/logo.png">
+        </div>
+
+        <div class="main">
+          <div class="list-item">
+            <a href="home_admin.html">
+              <img src="src/dashboard.svg" class="icon" />
+              <span class="description">News</span>
+            </a>
+          </div>
+
+          <div class="list-item">
+            <a href="nilai_admin.html">
+              <img src="src/input nilai.svg" class="icon" />
+              <span class="description">Nilai</span>
+            </a>
+          </div>
+
+          <div class="list-item">
+            <a href="jadwal_admin.html">
+              <img src="src/jadwal.png" class="icon" />
+              <span class="description">Jadwal</span>
+            </a>
+          </div>
+          
+          <div class="list-item">
+            <a href="index.html">
+              <i class="fa-solid fa-circle-xmark"></i>
+              <span class="description">Logout</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="header-content">
+        <div class="dasboard-content">
+          <nav>
+            <h1 class="dshbrd">News</h1>
+            <img src="src/foto.png" class="user-pic" onclick="toggleMenu()">
+            <div class= "sub-menu-wrap" id="subMenu">
+              <div class="sub-menu">
+                <div class="user-info">
+                  <img src="src/foto.png">
+                  <h3>2173011</h3>
+                </div>
+                <hr>
+
+                <a href="#" class="sub-menu-link">
+                <img src="src/profile.png">
+                <p>Edit Profile</p>
+                <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                <img src="src/logout.png">
+                <p>Logout</p>
+                <span>></span>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+      <div class="isi">
+        <div class="labelInformasiGanjar">
+          <h1 class="Ganjar">Informasi Seminar Nasional</h1>
+        </div>
+        <div class="Poster-Ganjar">
+          <img class="ganjar" src="src/ganjar.jpeg" />
+        </div>
+
+        <div class="labelInformasiBCA">
+          <h1 class="BCA">Informasi BCA Future Talent</h1>
+        </div>
+        <div class="Poster-BCA">
+          <img class="BCA" src="src/bca.jpg" />
+        </div>
+      </div>
+    </div>
+    <!-- <script src="https://kit.fontawesome.com/7bd216f5b8.js" crossorigin="anonymous"></script> -->
+
+    <script>
+      let subMenu = document.getElementById("subMenu");
+      function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+      }
+    </script>
+  </body>
+</html>

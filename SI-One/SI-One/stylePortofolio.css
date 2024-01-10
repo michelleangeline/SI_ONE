@@ -1,0 +1,191 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #111827;
+  width: 260px;
+  padding: 24px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.main {
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.sidebar .description-header {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  padding-left: 40px;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar .header .list-item {
+  display: flex;
+  width: 212px;
+  padding: 12px 10px;
+  align-items: center;
+  border-radius: 8px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar .header .illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+
+.sidebar .main .list-item .description {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  height: 1000px;
+}
+
+.sidebar .main .list-item .icon {
+  margin-right: 12px;
+}
+
+.sidebar .main .list-item {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 12px 10px;
+  border-radius: 8px;
+  width: 212px;
+  box-sizing: border-box;
+}
+
+.sidebar .main .list-item:hover {
+  background: #ff9900;
+  transition: all ease-in 0.2s;
+}
+
+.header-content {
+  width: 1200px;
+  height: 80px;
+  background-color: #111827;
+  box-sizing: border-box;
+}
+.sidebar {
+  border-right: silver solid;
+}
+
+.dshbrd {
+  padding-top: 25px;
+  padding-left: 25px;
+  color: #fff;
+}
+
+div.isi {
+  width: 600px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 1182px;
+  height: 650px;
+  background-color: #f0f0f0;
+  color: black;
+  border-radius: 10px;
+}
+
+.label {
+  font-size: 20px;
+  margin: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.tahunAjaran {
+  padding-right: 50px;
+}
+
+.card-container {
+  width: 1157px;
+  height: 500px;
+  padding-top: 15px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+table {
+  width: 500px;
+  height: 100px;
+}
+
+td {
+  height: 60px;
+}
+
+.pointPorto {
+  color: black;
+}
+
+div.submit {
+  text-align: center;
+}
+
+.card-hasil {
+  width: 1182px;
+  height: 1400px;
+  background-color: #f0f0f0;
+  color: black;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+div.dataDiri {
+  padding-left: 10px;
+}
+
+.atas {
+  background-color: #243e4d;
+  height: 20px;
+  color: white;
+  border: solid black 1px;
+}
+
+.hasilPortoPenalaran {
+  border: solid black 1px;
+  width: 1000px;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.cols {
+  border: 1px solid black;
+}
+
+.label-hasil-porto {
+  padding-left: 30px;
+}
+
+

@@ -1,0 +1,21 @@
+div.wrap {
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+html {
+  margin: 0px;
+}
+
+div.content {
+  background-color: aliceblue;
+  height: 500px;
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
